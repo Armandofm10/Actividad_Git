@@ -1,0 +1,7 @@
+"0","M<-matrix(1:100,10,10)"
+"0",""
+"0","number=c(1:10)"
+"0","factor=c(""A"",""B"",""C"",""D"",""E"")"
+"0","logical=c(TRUE,FALSE,TRUE,FALSE,FALSE)"
+"0","dataset.1=data.frame(number,factor,logical,M)"
+"0","knitr::kable(dataset.1)"

@@ -1,0 +1,2 @@
+"0","y1.normal<-rnorm(200,mean=10,sd=0.5)"
+"0","plot(y1.normal)"

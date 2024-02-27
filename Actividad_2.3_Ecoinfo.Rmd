@@ -1,0 +1,31 @@
+---
+title: "Actividad _2.3_Ecoinfo"
+author: "Armando_Fernandez_Martin"
+date: "2024-02-27"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## *Introducción*
+
+En el intrincado entramado de relaciones que constituyen los **ecosistemas**, las aves desempeñan un papel crucial como **indicadores** de la salud ambiental y la biodiversidad. El anillamiento de aves emerge como una herramienta invaluable en la investigación ecológica, permitiendo el seguimiento individual de aves a lo largo del tiempo. Este método, también conocido como marcaje, no solo provee datos sobre la movilidad y las rutas migratorias de las especies, sino que también arroja luz sobre aspectos clave de su biología, comportamiento y respuesta a cambios ambientales.
+
+El anillamiento consiste en marcar un ave de manera individualizada, mediante anilla metálica, en la cual consta un remite y un código alfanumérico, único, a modo de DNI, con el que identificamos a cada ejemplar de manera unívoca.
+
+![](Imagenes_anillamiento/IMG_20191229_174708.jpg)
+## *Código*
+
+```{r base de datos}
+M<-matrix(1:100,10,10)
+
+number=c(1:10)
+factor=c("A","B","C","D","E")
+logical=c(TRUE,FALSE,TRUE,FALSE,FALSE)
+dataset.1=data.frame(number,factor,logical,M)
+knitr::kable(dataset.1)
+y1.normal<-rnorm(200,mean=10,sd=0.5)
+plot(y1.normal)
+```
